@@ -1,0 +1,8 @@
+1. "20_100 Check (ret).R" file checks whether the retweet count is in [15,100].
+2. "RTRN.R" file checks whether the REST API returned retweet count is in [15,100]. This also produces Graph Info containing retweet information of users on Twitter. 
+3. "Primary Graph Construction.R" is used to create primary graph based on follower/followee relationship of retweeters on Twitter.  
+4. "Secondary Graph Construction.R" is used to create secondary graph based on timestamp of retweets of retweeters on Twitter. This also produces Rumor Infection Networks.
+5. "Underlying Graph (With Uninfected Nodes).R" is used to get uninfected list of neighbors of the rumor infected users on Twitter.
+6. "Rumor Underlying Networks Construction.R" is used to create the underlying network of rumors corresponding to the rumor infection networks.
+7. "Rumor Infection Networks Labeling.R" is used to label the nodes of the rumor infection networks.
+8. "Rumor Underlying Networks Labeling.R" is used to label the nodes of the rumor underlying networks.

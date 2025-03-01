@@ -1,0 +1,2 @@
+1. "Covid 19 Results (Beta=3).csv" and "Covid 19 Results (Beta=4).csv" files contain the source detection results (error in hops) of various methods on all Cov19-RN dataset networks.
+2. "Covid 19 actual vs estimated skew.csv" file contains information on the actual source-skew as found in Cov19-RN dataset networks and the estimated source-skew as computed by various methods.

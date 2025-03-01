@@ -1,0 +1,2 @@
+1. "US Elections Results (Beta=3).csv" and "US Elections Results (Beta=4).csv" files contain the source detection results (error in hops) of various methods on all Use20-RN dataset networks.
+2. "US Elections actual vs estimated skew.csv" file contains information on the actual source-skew as found in Use20-RN dataset networks and the estimated source-skew as computed by various methods.

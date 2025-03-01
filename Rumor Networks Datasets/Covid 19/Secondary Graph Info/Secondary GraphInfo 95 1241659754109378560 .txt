@@ -1,0 +1,6 @@
+"remaining_sg_ID"	"remaining_sg_UN"
+"64911072"	"just_news101"
+"47319345"	"eggry"
+"870204441030311936"	"Gospeedracer5"
+"177413070"	"YUSEI_Y"
+"1238467680773894146"	"CoronaUpdateBot"

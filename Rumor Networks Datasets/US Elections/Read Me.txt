@@ -1,0 +1,10 @@
+1. "US Elections Fake News Tweet IDs" file contains filtered handpicked misinformation tweet IDs. 
+2. "retCount15_100 US Elections Fake News Tweet IDs" file contains the filtered tweet IDs with retweet count in [15,100].
+3. "RTRN_retCount15_100 US Elections Fake News Tweet IDs" file contains the filtered tweet IDs with REST-API returned retweet count in [15,100].
+4. "Graph Info" folder contains files with information regarding the retweets of each tweet IDs in "RTRN_retCount15_100 US Elections Fake News Tweet IDs" file. This is used as input for primary graph construction module.
+5. "Primary Graph Info" folder contains files with information regarding the source and target user IDs edge lists based on follower/followee relationship on Twitter. This goes input into the secondary graph construction module.
+6. "Secondary Graph Info" folder contains files with information regarding the source and target user IDs edge lists based on retweet timestamps on Twitter. This information produces "Rumor Infection Networks" folder containing rumor infection networks corresponding to each tweet ID. Besides, "Secondary Graph Info" goes input into the underlying graph construction module.
+7. "Labeled Rumor Underlying Networks (Beta=3)" and Labeled Rumor Underlying Networks (Beta=4) folder contain rumor underlying networks corresponding to each rumor infection network for Beta=3 and Beta=4, respectively.
+8. "Labeled Rumor Infection Networks" and "Labeled Rumor Underlying Networks" folders contain labeled graphs of the graphs in "Rumor Infection Networks" and "Rumor Underlying Networks" folders, respectively. 
+9. "Unifected Lists" folder contains the uninfected node information surrounding the rumor infected users on Twitter.
+  
